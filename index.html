@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <a href="blog.html">Go to blog</a>
+        <!--form-->
+        <form action="process.php" method="POST">
+            <div>
+            <label> First Name</label>
+            <input type="text" name="firstname" value="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label> Last Name</label>
+                <input type="text" name="lastname" placeholder="Enter last name">
+            </div>
+            <br>
+            <div>
+                <label> email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label> Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label> Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+
+            <input type="submit" name="submit" value="Submit">
+
+        </form>
+        <!--button-->
+        <button>Click me</button>
+
+        <!--img-->
+        <a href="images/sample.jpg">
+        <img src="images/sample.jpg" alt="MySampleImage" width="200">
+        </a>
+
+        <!--Quotations-->
+        <blockquote cite="https://codeforces.com/group/yg7WhsFsAp/contests">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corporis consequuntur iusto? Accusamus consequuntur error tenetur deserunt. Deserunt officiis corrupti adipisci odit eveniet culpa reprehenderit, expedita magni asperiores dolorem ipsam.
+        </blockquote>
+
+        <p> The <abbr title="World Wide Web">WWW</abbr> is <cite>very</cite> awesome</p>
+    </body>
+</html>
